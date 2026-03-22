@@ -122,18 +122,23 @@ body{
     
     .education-grid {
         grid-template-columns: repeat(2, 1fr);
+        max-width: 800px;
+        margin: 0 auto;  
     }
-
+    
     .education-grid .card:first-child {
         grid-column: span 2;
-        margin-left: 100px;
-        margin-right: 100px;
+        margin-left: 0;   
+        margin-right: 0;
     }
 
     .project-card {
         flex-direction: row; 
-        width: 70%;
-        height: 200px;
+        width: 80%;       
+        max-width: 700px; 
+        height: auto;     
+        min-height: 200px; 
+        margin: 20px auto; 
     }
 
     .proj-img {
