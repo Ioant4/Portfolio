@@ -14,12 +14,14 @@ body {
 /*Header*/
 .sidebar {
     background: linear-gradient(135deg, #cea67d 0%, #c79d7d 100%);
-    height: 50vh; 
+    min-height: 50vh; 
     display: flex;
+    flex-direction: column; 
     justify-content: center;
     align-items: center;
     text-align: center;
     color: white;
+    padding: 40px 20px; 
 }
 
 .my_image {
